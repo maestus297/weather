@@ -10,18 +10,32 @@
 
 <body>
 
-<div class = "container">
+<div class="container">
+    <header>
+        <form>
+          <div class="form-group">
+            <button class="submit-btn">
+              <i class="fas fa-search"></i>
+            </button>
+            <input type="text" placeholder="Search city" />
+            <br />
+            <span class="error-msg">No matching location found!</span>
+          </div>
+        </form>
+      </header>
 
-<div>
-    <p class = "city"></p>
-    <p class = "country"></p>
-    <p class="temp"></p>
-    <p class = "feelsLike"></p>
-</div>
-<sppan>
-    
-</span>
-
+    <div class="main">
+        <div class="info"> 
+            <p class = "location"></p>
+            <p class = "condition"></p>
+            <span class="temp"> </span>
+         </div>
+         <div class="extra-info">
+            <p class="feels-like"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+         </div>
+    </div>
 </div>
 
 
