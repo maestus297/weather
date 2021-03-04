@@ -21,9 +21,9 @@ async function weather (search) {
     if(!response.ok) {
       throwErrorMsg();
     } else {
-      //error.style.display = 'none';
+      error.style.display = 'none';
       const weatherData = await response.json();
-      // document.querySelector('form').reset;
+      document.querySelector('form').reset;
       console.log(weatherData);
       setData(weatherData);
 
